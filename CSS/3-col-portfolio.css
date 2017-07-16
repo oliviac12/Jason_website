@@ -8,6 +8,10 @@ body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+p {
+    font: Roboto;
+}
+
 .image-bg-fluid-height,
 .image-bg-fixed-height {
     text-align: center;
@@ -32,8 +36,8 @@ body {
 
 .img-center {
 	margin: 0 auto;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
 }
 
 .portfolio-item {
