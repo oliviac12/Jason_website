@@ -10,6 +10,8 @@ body {
 
 p {
     font: Roboto;
+    padding-top: 12px;
+    padding-bottom: 15px;
 }
 
 .image-bg-fluid-height,
@@ -24,7 +26,7 @@ p {
 .image-bg-fluid-height {
   background-color: #ffffff;
 	/*background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;*/
-    /*padding: 15px 0;*/
+    padding: 15px 0;
     /*align-content: center;*/
 }
 
@@ -36,8 +38,8 @@ p {
 
 .img-center {
 	margin: 0 auto;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
 }
 
 .portfolio-item {
