@@ -4181,6 +4181,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-collapse {
+  text-align: center;
   padding-right: 15px;
   padding-left: 15px;
   overflow-x: visible;
@@ -4325,6 +4326,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav {
   margin: 7.5px -15px;
+  text-align: center;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
