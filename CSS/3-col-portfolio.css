@@ -8,10 +8,12 @@ body {
     padding-top: 100px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-p {
-    font: Roboto-Black.ttf;
+header p {
+    letter-spacing: .4px;
+    font-family: Roboto-Bold;
     padding-top: 12px;
     padding-bottom: 12px;
+    font-size: 12px;
 }
 
 ul {
@@ -89,4 +91,18 @@ footer .footer-below {
 .btn:active,
 .btn.active {
     outline: 0;
+}
+
+.navbar-nav a {
+  font-family: Roboto-Bold;
+}
+
+img:hover{
+  background-color: yellow;
+  opacity: .4; 
+}
+
+footer p {
+  font-family: Roboto-Bold;
+  font-size: 11px;
 }

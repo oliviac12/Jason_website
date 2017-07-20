@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  /*font-family: "Times New Roman", Georgia, Serif; */
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -260,12 +260,12 @@ th {
     border: 1px solid #ddd !important;
   }
 }
-@font-face {
+/*@font-face {
   font-family: 'Glyphicons Halflings';
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}
+}*/
 .glyphicon {
   position: relative;
   top: 1px;
@@ -1076,13 +1076,31 @@ th {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+@font-face {
+font-family: Roboto-Bold;
+src: url('../fonts/Roboto-Bold.ttf')
+};
+
+@font-face {
+font-family: Roboto-BlackItalic;
+src: url('../fonts/Roboto-BlackItalic.ttf');
+}
+
+@font-face {
+font-family: Roboto-Black;
+src: url('../fonts/Roboto-Black.ttf');
+};
+
+
 html {
   font-size: 10px;
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Roboto-Bold,
+  /*Helvetica, Arial, sans-serif;*/
   font-size: 12px;
   line-height: 1.42857143;
   color: #333;
@@ -1092,7 +1110,7 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
+  /*font-family: inherit;*/
   font-size: inherit;
   line-height: inherit;
 }
@@ -1100,10 +1118,11 @@ a {
   color: #337ab7;
   text-decoration: none;
 }
-a:hover,
+a:hover
 a:focus {
   color: #23527c;
   text-decoration: underline;
+
 }
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
@@ -1183,7 +1202,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  /*font-family: Roboto-Black;*/
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -3990,7 +4009,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  /*background-color: #eee;*/
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4375,6 +4394,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-nav > li {
     /*float: left;*/
+    display: inline-block;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -4622,12 +4642,12 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #9d9d9d;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+  color: #c4bcbc;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
-  background-color: transparent;
+  /*color: #fff;*/
+  color: #ED4136;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
